@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apollo" />
         <module name="netty" />
+        <module name="RMI" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RMI" options="-parameters" />
       <module name="apollo" options="-parameters" />
       <module name="netty" options="-parameters" />
     </option>

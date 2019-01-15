@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91cf5ca6-df85-4ca7-ad22-7405582544dc" name="Default Changelist" comment="" />
+    <list default="true" id="91cf5ca6-df85-4ca7-ad22-7405582544dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/ISayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/SayHelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/UserServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_skeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_stub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/apollo/target/" />
     <ignored path="$PROJECT_DIR$/netty/target/" />
+    <ignored path="$PROJECT_DIR$/RMI/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,70 +31,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apollo/src/main/java/com/pansoft/xbrl/cloud/config/SampleConfig.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apollo/src/main/java/com/pansoft/xbrl/cloud/ApolloSBootstrap.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apollo/src/main/java/com/pansoft/xbrl/cloud/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apollo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/RMI/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="252">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/pom.xml">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/ISayHello.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="42">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apollo/src/main/java/com/pansoft/xbrl/cloud/config/ApolloRefreshConfig.java">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="84">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_skeleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_stub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/apollo/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/ISayHello.java" />
+        <option value="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloClient.java" />
+        <option value="$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User.java" />
+        <option value="$PROJECT_DIR$/RMI/pom.xml" />
       </list>
     </option>
   </component>
@@ -88,11 +111,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="5" />
     <option name="y" value="30" />
     <option name="width" value="1350" />
     <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -109,25 +135,25 @@
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -135,15 +161,21 @@
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="apollo" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tengshe789" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tengshe789studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="tengshe789-study-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="RMI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tengshe789" type="462c0819:PsiDirectoryNode" />
+              <item name="writenRMIcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,14 +188,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547542279926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547543280026" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_workspace\tengshe789-study-notes\netty" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\_workspace\tengshe789-study-notes\apollo" />
+      <recent name="C:\_workspace\tengshe789-study-notes\RMI\src\main\java" />
+      <recent name="C:\_workspace\tengshe789-study-notes\RMI\src\main\java\tech\tengshe789" />
+      <recent name="C:\_workspace\tengshe789-study-notes\RMI" />
+      <recent name="C:\_workspace\tengshe789-study-notes\netty\src\main\java" />
+      <recent name="C:\_workspace\tengshe789-study-notes\netty" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547541745812</updated>
-      <workItem from="1547541753721" duration="294000" />
+      <workItem from="1547541753721" duration="1341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294000" />
+    <option name="totallyTimeSpent" value="1341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -209,6 +248,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,17 +302,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
+    <entry file="file://$PROJECT_DIR$/apollo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="378">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="469">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/tech/tengshe789/im/ImApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/tech/tengshe789/im/websocket/ChatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/tech/tengshe789/im/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/tech/tengshe789/im/websocket/WebSocketServerInitialzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/tech/tengshe789/hello_netty/HelloNetty.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="63">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/ISayHello.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/ISayHello.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/rmi/HelloServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_skeleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/src/main/java/tech/tengshe789/writenRMIcode/User_stub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
