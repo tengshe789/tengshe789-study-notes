@@ -60,3 +60,11 @@ gen_code
 
 ### node ###
 node_modules
+.idea/.name
+.idea/.name
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml

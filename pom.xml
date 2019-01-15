@@ -12,7 +12,8 @@
         <module>apollo</module>
         <module>netty</module>
         <module>RMI</module>
-    </modules>
+		<module>gogs</module>
+	</modules>
 
 
     <parent>
