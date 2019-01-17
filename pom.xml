@@ -8,18 +8,35 @@
     <artifactId>tengshe789-study-notes</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>apollo</module>
         <module>netty</module>
         <module>RMI</module>
 		<module>gogs</module>
+		<module>Spring-Cloud-ConfigurationCenter</module>
 	</modules>
 
+	<properties>
+		<lombok.version>1.16.14</lombok.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>8</java.version>
+	</properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.7.RELEASE</version>
     </parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
     
 </project>

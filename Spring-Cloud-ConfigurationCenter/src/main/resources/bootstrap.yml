@@ -1,0 +1,29 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: miao-cloud-config
+  profiles:
+    active: native
+  # 配置中心
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config/
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        tags: version=2.0
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 5s
+        instance-id: ${spring.application.name}:comma,separated,profiles:${server.port}
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
